@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>San Diego Top Spots</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="SD.CSS">
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+    <h2>&#x1F60E; &#x1F305; Check Out &#x1F305; &#x1F60E; </h2>
+    <h1>San Diego Top Spots</h1>
+    <h2> &#x1F60E; &#x1F305; And Have Fun!!&#x1F305; &#x1F60E;</h2>
+    <section>
+    </section>
+    <div id="map"></div>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+    </table>
+    <select id="destination"></select>
+    <button id="submit">Submit</button>
+    <script src="data.json"></script>
+    <script src="main.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV8vE_AjR-s_qwK1rzPkz8pEct3vZLJtI&callback=initMap&v=weekly"
+      defer
+    ></script>
+    
+</body>
+
+</html>

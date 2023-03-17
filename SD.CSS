@@ -1,0 +1,56 @@
+body {
+  background-color: blanchedalmond;
+  font-family: Apple Chancery, cursive;
+  align-content: center;
+  font-weight: bolder;
+}
+
+#myTable {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Apple Chancery, cursive;
+  text-align: center;
+  border-style: double;
+  border-radius: 10px;
+  margin: 10px;
+  font-weight: bolder;
+}
+
+th {
+  border-style: double;
+  margin: 10px;
+}
+
+td {
+  border-style: double;
+  margin: 10px;
+}
+
+button {
+  font-family: Apple Chancery, cursive;
+  background-color: blanchedalmond;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+
+#map {
+  height: 50%;
+  border-style: double;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#destination {
+  background-color: blanchedalmond;
+}
